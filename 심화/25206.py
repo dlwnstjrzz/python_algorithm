@@ -13,7 +13,7 @@ grade_dic = {
     'D0':	1.0,
     'F': 0}
 
-while True:
+for i in range(20):
     user_input = input()
     if user_input != '':
         course, total, grade = map(str, user_input.split())
