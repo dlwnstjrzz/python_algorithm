@@ -1,0 +1,5 @@
+t = int(input())
+nums = input().split()
+maxNum = max(map(int,nums))
+minNum = min(map(int, nums))
+print(f'{minNum} {maxNum}')
